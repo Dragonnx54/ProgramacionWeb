@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Formulario</title>
+    </head>
+    <body>
+        <h1>Formulario</h1>
+        <form action="index.html">
+            <h3>Texto:</h3>
+            <label>Nombre</label>
+            <!--placeholder es un texto de ayuda para el usuario-->
+            <input type="text" name="nombre" id="nombre" placeholder="Introduce nombre" size="50" value="Yo" maxlength="5" /><br />
+            <input type="text" autofocus required /><!--autofocus pone el elemento seleccionado, required forza a que el usuario rellene ese elemento-->
+            <h3>Radio</h3>
+            <!--fieldset marca un conjunto de elementos juntos a manera de organizacion-->
+            <fieldset>
+                <legend>Genero</legend><!--muestra un titulo al fieldset-->
+                <input type="radio" name="genero" value="hombre" checked />Hombre
+                <input type="radio" name="genero" value="mujer" />Mujer
+                <input type="radio" name="genero" value="otro" />Otro
+            </fieldset>
+            <h3>Select</h3>
+            <label>Frutas</label>
+            <!-- menu se seleccion-->
+            <select name="frutas" id="frutas">
+                <optgroup label="Favoritos">
+                    <option value="fresa">Fresa</option>
+                </optgroup>
+                <optgroup label="Otros">
+                    <option value="uva">Uva</option>
+                    <option value="naranja">Naranja</option>
+                </optgroup>
+            </select>
+
+            <h3>Textarea</h3>
+            <textarea name="mensaje" id="mensaje" cols="10" rows="10" placeholder="Escribe un mensaje"></textarea>
+
+            <h3>Datalist</h3>
+            <label>Navegadores</label>
+            <input list="buscador" />
+            <datalist id="buscador">
+                <option value="Safari"></option>
+                <option value="Internet eXplorer"></option>
+                <option value="Chrome"></option>
+            </datalist>
+
+
+            <h3>Password</h3>
+            <label for="contrasena">Contraseña</label>
+            <input type="password" id="contrasena" />
+
+            <h3>Checkbox</h3>
+            <input type="checkbox" name="hola" value="valor1" checked />Hola
+            <input type="checkbox" name="adios" value="valor2" checked />Adios
+
+            <h3>Color</h3>
+            <input type="color" />
+
+            <h3>Fecha</h3>
+            <!--min y max especifican el rango de fechas-->
+            <input type="date" value="1999-03-09" min="" />
+            <input type="datetime-local" />
+            <input type="week" />
+            <input type="month" />
+            <input type="time" />
+
+            <h3>email</h3>
+            <input type="email" />
+
+            <h3>URL</h3>
+            <input type="url" />
+
+
+            <h3>Number</h3>
+            <input type="number" max="10" min="0" />
+
+            <h3>Rango</h3>
+            <input type="range" min="0" max="40" step="5" />
+
+            <h3>search</h3>
+            <input type="search" />
+
+            <h3>Telefono</h3>
+            <input type="tel" maxlength="10"/>
+
+            <h3>Archivo</h3>
+            <!--multiple permite varias selecciones-->
+            <input type="file" multiple />
+
+
+            <input type="image" />
+
+            <input type="reset" value="Reestablecer"/>
+            
+
+            <br /><br />
+            <input type="submit" value="Enviar" />
+
+        </form>
+
+    </body>
+</html>
