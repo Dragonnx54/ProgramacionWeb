@@ -1,0 +1,51 @@
+/*selector::pseudo-elemento{
+    PROPiEDADES:VALOR;
+}*/
+/* Pseudoelementos
+
+Se utilizan para darles estilos a partes epecificas de un elemento
+::first-letter - elementos en bloque
+::first-line - Elementos en bloque
+::selection - Cuando seleccionas un texto
+::before 
+::after
+
+*/
+.titulo::first-letter{
+    color:hotpink;
+    font-size: 60px;
+}
+
+.linea::first-letter{
+    
+    color:hotpink;
+    font-size: 60px;
+}
+/* 
+.linea{
+    display: block;
+} */
+.texto::first-line{
+    color:blue;
+}
+.texto::selection{
+    color: honeydew;
+    background-color: black;
+}
+
+.dinero::before{
+    content: "$";
+}
+.dinero::after{
+    content: ".00";
+}
+
+.ejemplo::after,.ejemplo::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+
+

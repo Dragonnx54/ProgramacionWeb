@@ -1,0 +1,125 @@
+body{
+    color: white;
+    margin: 0;
+}
+header{
+    text-align: center;
+}
+.contenedor-logo{
+    border-top: 8px solid #d75d6b;
+}
+.contenedor-logo img{
+    width: 140px;
+    padding: 15px 0;
+}
+.barra-nav{
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fedf01;
+}
+.barra-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+.barra-nav ul li{
+    padding: 0 10px;
+    list-style-type: none;
+}
+.barra-nav input{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.contenedor-principal-img{
+    width: 340px;
+    margin: 0 5%;
+}
+.contenedor-principal-img img{
+    width: 80%;
+    border-radius: 5%;
+}
+.contenedor-principal-texto{
+    width: 500px;
+    text-align: start;
+    color: black;
+}
+.principal-titulo{
+    font-family: 'Dancing Script', cursive;
+}
+.contenedor-principal-texto h1 p{
+    font-style: italic;
+}
+.contenedor-principal-learnmore{
+    text-align: center;
+    color: #d75d6b;
+    font-weight: bold;
+}
+.contenedor-principal-light{
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.contenedor-principal-light h2{
+    font-size: 20px;
+    color: black;
+    margin: 2px 0;
+}
+.contenedor-principal-light p{
+    margin: 2px 0;
+    color:#a7a6a6;
+    font-size: 13px;
+}
+.contenedor-footer{
+    border-top: 2px solid #cbd952;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0;
+}
+#ikea{
+    width: 90px;
+    height: 30px;
+}
+#lightshop{
+    width: 180px;
+}
+#amazon{
+    width: 80px;
+}
+#beacon{
+    width: 60px;
+    height: 30px;
+}
+
+.copy{
+    text-align: center;
+    color: black;
+    font-size: 11px;
+}
+.copy span{
+    color: #bde2e0;
+}
+.copy p{
+    margin: 0;
+}
+footer{
+    border-bottom: 8px solid #cbd952;
+}

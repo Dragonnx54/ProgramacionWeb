@@ -1,0 +1,42 @@
+/*Herencia: cuando un atributo tiene caracteristicas
+por default como "a" puedes utilizar inherit para pasar
+las propiedades*/
+p{
+    /*color:red !important;*/
+    color: red;
+}
+
+a{
+    color:inherit;
+}
+/*CASCADA: se aplican los cambios en cascada en caso de no aplicar la especificidad*/
+/*ESPECIFICIDAD
+
+El peso es la prioridad con la que se aplica un atributo sobre otro sin importar el orden en que se apliquen
+Etiqueta->1
+Clases y pseudoclases -> 10
+ID->100
+Estilos en linea ->1000
+!important -> siempre gana(no usar important xd)
+*/
+
+/*Important->especificidad->cascada*/
+.parrafo{
+    color:green;
+}
+
+#parrafo{
+    color: palevioletred;
+}
+
+
+
+
+
+
+
+
+
+
+
+

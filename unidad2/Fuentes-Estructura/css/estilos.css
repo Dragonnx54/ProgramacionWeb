@@ -24,6 +24,7 @@ header nav ul li{
     margin: 0 15px;
     border-radius:5px;
     box-shadow:5px 5px black;
+    list-style-type: square;
 }
 header nav ul li:hover {
     background:black;

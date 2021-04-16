@@ -1,0 +1,113 @@
+body{
+    margin: 0 auto;
+    max-width: 1024px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    background-color: #d0e1e6;
+    position: relative;
+}
+footer{
+    background-color: #172a39;
+    color: white;
+    padding: 5px;
+    margin-top: 15px;
+}
+footer div{
+    width: 32%;
+    height: 100px;
+    font-size: 38px;
+    border-radius: 5px;
+    background-color: #293b47;
+    font-weight: 700;
+    padding: 10px 0 0 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+header nav{
+    background-color: rgb(56, 56, 202);
+    width: 97%;
+    height: 40px;
+    margin:0 auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+header nav ul li{
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    margin: 0px 15px 0px 15px;
+
+}
+header nav ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+header nav form{
+    
+    
+}
+.boton-buscar{
+    background-color: #5ebe3b;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+}
+.buscador{
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+}
+.secc1{
+    margin: 15px 0 10px;
+    
+}
+.secc1 article{
+    text-align: center;
+    margin: 10px 0;
+
+}
+.secc1 article img {
+    width: 99%;
+    border: 5px solid grey;
+}
+.secc2 article{
+    display: inline-flex;
+    flex-direction: column;
+    width: 32%;
+    vertical-align: top;
+}
+.secc2 h1{
+    font-size: 55px;
+    margin: 10px 0 0px;
+}
+.secc2 h2{
+    font-size: 38px;
+    margin: 10px 0 0;
+}
+#logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*.flex{
+    display: flex;
+}*/
+.ver-mas{
+    align-self: center;
+    width: 80px;
+    color: blue;
+    border-radius: 3px;
+    padding: 4px;
+    border:1px solid #cbcdcf ;
+    /*justify-self: center;
+    display: flex;*/
+}
+

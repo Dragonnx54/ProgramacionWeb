@@ -1,0 +1,75 @@
+/*selector{
+    propiedad:valor; se usa puntoycoma cuando hay mas de un valor
+    propiedad2:valor;
+}
+body{
+    
+}
+
+.clase1{
+    background-color: aqua;
+}
+
+#myh1{
+    background-color: aqua;
+}
+
+#myh1:hover{
+    background-color: black;
+    color:white;
+}*/
+
+/*Selector de atributos*/
+/*Seleccionar elementos que tiene ese atributo*/
+[href]{
+    color:green;
+}
+/*seleccionar elementos que tengan ese atributo y ese valor*/
+[href="#"]{
+    color:red;
+}
+
+/*Seleccionar los elementos que tienen ese atributo y ese valor almenos una vez*/
+[class~="verde"]{
+    color:purple;
+}
+/*Seleccionar los elementos que tienen ese atributo y exactamente ese valor o que empiecen por ese valor seguido de un guion*/
+[class|="verde"]{
+    color:blue;
+}
+
+/*Seleccionar los elementos que tienen ese atributo y que empiecen por ese valor */
+[class^="verde"]{
+    color:orange;
+}
+/*Seleccionar los elementos que tienen ese atributo y que terminen por ese valor */
+[class$="rojo"]{
+    color:yellowgreen;
+}
+/*Seleccionar los elementos que tienen ese atributo y que contengan  ese valor */
+[class*="rojo"]{
+    color:palevioletred;
+}
+
+/*Selectores combinadores*/
+
+/*Selector de hermano adyacente*/
+h1+h2{
+    color:green;
+}
+h2+h2{
+    color:red;
+}
+/*Selector de hermano general*/
+h1 ~ h3 {
+    color:palevioletred;
+}
+/*selectores descendentes*/
+div p{
+    color:red;
+}
+
+/*Hjo directo*/
+p>span{
+    color:blue;
+}

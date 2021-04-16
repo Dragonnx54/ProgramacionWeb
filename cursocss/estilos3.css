@@ -1,0 +1,39 @@
+h1{
+    background-color: peru;
+    height: 150px;
+    width: 100px;
+}
+h2{
+    background-color: purple;
+    width: 200px;
+}
+/*Para aplicar cambios a elementos en linea se usa display:inline-block;*/
+a{
+    background-color: red;
+    width: 100px;/*No se aplican los cambios de altura y ancho en elementos en linea*/
+    display: inline-block;
+}
+
+span{
+    background-color: blue;
+    height: 500px;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+.caja-1{
+    background-color: aqua;
+    padding :10px;
+    border-style: dotted solid dashed;
+    border-right-width: 10px;
+    border-color: blue;
+}
+.caja-2{
+    background-color: blueviolet;
+    margin: 10px 0;
+    border: 2px solid black;
+}

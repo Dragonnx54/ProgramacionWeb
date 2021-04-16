@@ -1,0 +1,120 @@
+body{
+    background-color: white;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    height: 120px;
+    margin: 0 0 20px;
+}
+footer{
+    display: flex;
+    position: fixed;
+    background-color: magenta;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    justify-content: flex-start;
+}
+header nav{
+    display: flex;
+    width:65%;
+    height: 40%;
+    align-self: center;
+    align-items: flex-end;  
+    box-shadow: 0px 2px magenta;
+}
+header nav ul{
+    margin:0 0 0 auto;
+    display: flex;
+}
+header nav ul li{
+    display: flex;
+    height: 30px;
+    padding: 0 38px;
+    font-weight: bold;
+    font-size: 20px;
+    align-items:flex-end;
+    box-shadow: 2px 0px magenta;
+    
+}
+header nav ul li:last-child{
+    box-shadow: 2px 0px white;
+    padding-right:45px;
+}
+
+.contenedor-logo{
+    display: inline-block; 
+    width: 25%;
+    height:40px;
+    margin: 20px 0 0 10px;
+}
+.contenedor-logo img{
+    width: 25%;
+}
+.secc1{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+}
+.contenedor-titulos{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 25%;
+    flex-wrap: wrap;
+    margin: 0 0 0 auto;
+}
+.contenedor-persona{
+    display: flex;
+    width: 49%;
+    justify-content: center;
+    align-content: center;
+}
+
+.titulo{
+    color: rgb(37, 127, 163);
+    font-size: 62px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+}
+.subtitulo{
+    color: magenta;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
+.contenedor-copy{
+    width: 40%;
+    margin: 20px 0;
+}
+.contenedor-direccion{
+    width: 30%;
+    margin: 20px 0 20px auto;
+    align-self:flex-end;
+    text-align: right;
+    
+}
+.footer-lema{
+    font-weight: bolder;
+    font-size:20px;
+}
+.footer-texto{
+    color: white;
+    font-size: 15px;
+    padding: 0 20px;
+    margin: 0;
+}
+.correo{
+    font-style: italic;
+    color: rgb(86, 201, 86);
+}
+#persona{
+    border-radius: 50%;
+    width: 55%;
+    border: 4px solid orange;
+}

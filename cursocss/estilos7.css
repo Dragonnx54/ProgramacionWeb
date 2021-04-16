@@ -1,0 +1,190 @@
+/* 
+Pseudoclases
+    Dinamicas
+    :link - link no esta visitado
+    :visited - link ya se visito
+    :active - al momento de dar click
+    :hover - Al poner el mouse sobre el elemento
+    :focus - cuando un elemento tiene el foco
+ */
+
+ .enlace:link{
+     color: lime;
+ }
+ .enlace:visited{
+     color: red;
+ }
+ .enlace:active{
+     background-color: black;
+ }
+
+ .boton{
+     color: white;
+     text-decoration: none;
+     padding: 5px 10px;
+     background-color: green;
+     border-radius: 5px;
+     display: inline-block;
+ }
+.boton:active{
+    transform: scale(.8);
+}
+
+.boton:hover{
+    color: green;
+    background-color: white;
+    border: 1px solid;
+}
+
+/* h1:hover{
+    color: palevioletred;
+} */
+
+.foco:focus{
+    background-color: pink;
+    color: purple;
+}
+
+/* target */
+.enlacep{
+    display:block;
+    background-color: rebeccapurple;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.parrafo{
+    margin:400px 0;
+}
+
+.parrafo:target{
+    padding: 50px 0 0;
+}
+
+
+/*
+Estado
+:enabled
+:disabled
+:checked
+:required
+:valid
+:invalid
+
+:in-range
+:out-of-range
+*/
+
+.label,.input{
+    display: block;
+}
+
+.input:enabled{
+    background-color: yellowgreen;
+}
+.input:disabled{
+    background-color: yellow;
+    border: none;
+}
+.input:checked + .label{
+   font-size: 40px;
+}
+.input:optional{
+    background-color: aqua;
+}
+.input:required{
+    background-color: red;
+}
+.input:in-range{
+    background-color:purple;
+}
+.input:out-of-range{
+    background-color:blue;
+}
+
+/*  Pseudoclases estructurales
+    :root
+    :empty - elementos vacios
+
+    CHILD-
+    :first-child
+    :last-child
+
+    :nth-child()
+    :nth-last-child()
+    :only-child    
+
+    valores:
+    odd -impares
+    even -pares 
+    numeros enteros
+    ecuaciones (1n,1+n)
+
+    type:
+    :first-of-type
+    :last-of-type
+    :nth-last-of-type()
+*/
+
+
+
+/* .p{
+    background-color: aqua;
+    padding: 10px;
+}
+.p:empty{
+    all: unset;
+} */
+
+/* .p:first-child{
+    background-color: aquamarine;
+}
+.p:last-child{
+    background-color: palevioletred;
+} */
+/* .p:nth-child(3n+2){
+    background-color: peru;
+} */
+
+/* .p:nth-last-child(even){
+    background-color: green;
+} */
+
+/* .p:only-child{
+    background-color: greenyellow;
+} */
+
+/* .p:first-of-type{
+    background-color: cyan;
+}*/
+.p:first-child{
+    background-color: indigo;
+}
+.p:nth-of-type(4){
+    background-color: hotpink;
+} 
+.p:not(div){
+    background-color: greenyellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

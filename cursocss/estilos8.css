@@ -1,0 +1,60 @@
+/* 
+Degradaos
+Tipos: lineal y radial
+
+2 colores: 0% 100%
+3 colores 0% 50% 100%
+
+Son valores de background-image
+
+Valores:
+linear-gradient([direccion],color,color2,....)
+background-image: linear-gradient(green,blue);
+
+direcciones: [to] top,right,left,bottom,top left,top right 
+las direcciones pueden ser grados: 0 90 etc [deg]
+
+Inicios de color: medidas en px,%,em.
+
+Tambien podemos declarar el fin con porcentajes
+
+
+
+
+valor: 
+radial-gradientI([shape],color,color2,...): 
+
+forma:circle(radio) y ellipse(altura1 y altura2)
+            color: puede ser transparent
+origen: [at] top,right,left,bottom, center
+
+
+
+*/
+
+.caja{
+    /* border:2px solid black; */
+    height: 250px;
+    width: 250px;
+    /* background-image: linear-gradient(green 30%,blue 50% 80%,yellow ); */
+    /* background-image: radial-gradient(circle 250px at bottom,transparent 50%,blue 50%); */
+    background-image: repeating-linear-gradient(45deg,red,blue,red);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

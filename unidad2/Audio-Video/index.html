@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Audio/Video</title>
+        
+    </head>
+    <body>
+        <header>
+            <h1>Audio y Video</h1>
+        </header>
+        <section>
+            <article>
+                <h2>Audio</h2>
+                <!--para mostrar los controles del audio se utiliza el atributo controls-->
+                <!-- autoplay hace que reproduczca automaticamente,loop lo repite, -->
+
+                <audio controls autoplay preload="auto">
+                    <!--Si un navegador no soporta el primer src se va al segundo, si no al terceero,etc-->
+                    <source src="media/audio/audiohtml5.mp4" type="audio/mp4" />
+                    <source src="media/audio/audiohtml5.ogg" type="audio/ogg" />
+                </audio>
+                <audio controls>
+                    <source src="media/audio/musica.mp3" type="audio/mp3" />
+                </audio>
+            </article>
+            <article>
+                <h2>Video</h2>
+                <video autoplay muted controls width="300">
+                    <source src="media/video/video.mp4" type="video/mp4" />
+                    <source src="media/video/video.webm" type="video/webm" />
+                </video>
+                <!-- poster es la imagen que se muestra en el espacio del video antes de presionar la reproduccion-->
+                <video controls poster="img/ejemplo.jpg">
+                    <source src="media/video/video2.webm" type="video/webm"/>
+                </video>
+            </article>
+
+        </section>
+
+    </body>
+</html>

@@ -1,0 +1,26 @@
+.flex-container{
+    height: 500px;
+    background-color: lightcoral;
+    padding: 10px;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /*flex-wrap: wrap; nowrap*/
+    flex-direction: row;/*flex wrap cambia el eje principal de alineacion, el principal es el horizontal*/
+    /*justify-content: center;*/
+    /*align-content: flex-end;
+    justify-content: flex-end;*/
+    
+}
+.flex-item{
+    width: 50px;
+    height: 50px;/*si no se especifica el height toma el tamaño del contenedor, la propiedad stretch*/
+    margin: 5px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+.flex-item:nth-child(4){
+    align-self: flex-end;
+}
